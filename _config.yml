@@ -3,6 +3,7 @@ email: mark.adams@ed.ac.uk
 description: >- 
   Psychological and Psychiatric Complex Trait Genetics Research Group
 url: "https://psyche.systems"
+source_url: "https://github.com/psychesystems/psyche.systems/blob/main/"
 
 social:
   - name: mastodon
