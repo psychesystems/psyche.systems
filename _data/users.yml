@@ -1,0 +1,24 @@
+mark:
+  name: Mark Adams
+  member: markjamesadams
+  given: Mark James
+  family: Adams
+  email: mark.adams@ed.ac.uk
+  title: Senior Research Fellow
+  role: group leader
+  affiliations:
+    - The University of Edinburgh
+  locations:
+    - Edinburgh
+susan:
+  name: Susan Kanjira
+  member: susankanjira
+  given: Susan
+  family: Kanjira
+  email: S.C.Kanjira@sms.ed.ac.uk
+  title: Doctoral student
+  role: student
+  affiliations:
+    - The University of Edinburgh
+  locations:
+    - Lilongwe
