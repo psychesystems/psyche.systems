@@ -44,8 +44,17 @@ body, .site-title, .site-title:visited, .site-nav .page-link {
   color: #FEA000;
 }
 
+body {
+  min-width: 600px;
+}
+
+.page-content {
+  font-size: 1.4rem;
+}
+
 .page-branding {
   font-family: "Gorton Perfected", "Gorton", ui-sans-serif, sans-serif;
+  font-weight: 400;
   font-size: 800%;
   width: 0;
   overflow: visible;
