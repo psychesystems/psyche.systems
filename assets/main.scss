@@ -47,8 +47,39 @@ body, .site-title, .site-title:visited, .site-nav .page-link {
 body {
 }
 
+header.site-header:before {
+  content: "╔␁══";
+}
+
+header.site-header:after {
+  content: "═␆═╝";
+  text-align-last: right;
+  display: block;
+}
+
+.page-content:before {
+  content: "╔␂══";
+}
+
+.page-content:after {
+  content: "══␃╝";
+  text-align: right;
+  display: block;
+}
+
+div.page-content p {
+  margin-left: 1em;
+  margin-right: 1em;
+}
+
 .page-content {
   font-size: 1.2rem;
+}
+
+.site-footer:after {
+  content: "══␄╝";
+  display: block;
+  text-align: right;
 }
 
 .page-branding {

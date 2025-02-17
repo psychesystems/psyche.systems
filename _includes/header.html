@@ -1,6 +1,6 @@
 <header class="site-header" role="banner">
-
   <div class="wrapper">
+    
     {%- assign default_paths = site.pages | map: "path" -%}
     {%- assign page_paths = site.header_pages | default: default_paths -%}
     {%- if page.branding -%}
@@ -17,6 +17,7 @@
             <a class="page-link" href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a>
             {%- endif -%}
           {%- endfor -%}
+          
       </nav>
     {%- endif -%}
   </div>
