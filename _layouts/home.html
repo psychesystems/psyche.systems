@@ -1,0 +1,13 @@
+---
+layout: default
+---
+
+<div class="home">
+  {%- if page.branding -%}
+    <h1 class="page-branding">{{ page.branding }}</h1>
+  {%- endif -%}
+
+  {{ content }}
+
+ <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
+</div>

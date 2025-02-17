@@ -1,0 +1,171 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+
+@import "minima";
+
+@font-face {
+    font-family: "TX-02";
+    src:
+      url("https://ref.psyche.systems/resources/webfonts/TX-02/TX-02-Regular.woff2") format("woff2");
+    font-weight: normal;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: "TX-02";
+    src:
+      url("https://ref.psyche.systems/resources/webfonts/TX-02/TX-02-Oblique.woff2") format("woff2");
+    font-weight: normal;
+    font-style: italic;
+  }
+  @font-face {
+  font-family: "TX-02";
+  src:
+    url("https://ref.psyche.systems/resources/webfonts/TX-02/TX-02-Bold.woff2") format("woff2");
+  font-weight: bold;
+  font-style: normal;
+}
+  @font-face {
+  font-family: "TX-02";
+  src:
+    url("https://ref.psyche.systems/resources/webfonts/TX-02/TX-02-Bold-Oblique.woff2") format("woff2");
+  font-weight: bold;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Gorton";
+  src:
+    url("https://ref.psyche.systems/resources/webfonts/GortonPerfectedVF.woff2") format("woff2");
+}
+
+body, .site-title, .site-title:visited, .site-nav .page-link {
+  font-family: "Berkeley Mono", "TX-02", ui-monospace, monospace;
+  background-color: #09222A; 
+  color: #FEA000;
+}
+
+.page-branding {
+  font-family: "Gorton Perfected", "Gorton", ui-sans-serif, sans-serif;
+  font-size: 800%;
+  width: 0;
+  overflow: visible;
+  line-height: 100%;
+}
+
+.membername, .memberrole {
+  display: inline;
+}
+
+.memberrole {
+  font-style: italic;
+}
+
+a, .site-title, .site-title:visited, .site-nav .page-link:a, a.site-title {
+  color: #FEA000;
+  text-decoration: none;
+}
+
+a.site-title:before,   a.site-title:hover:before {
+  content: none;
+}
+
+.page-content a {
+  color: #f5f8fa;
+}
+
+.page-content a:before {
+  content: ">";
+  color: #FEA000;
+}
+
+.page-content a:visited {
+  color: #f5f8fa;
+}
+
+.page-content a:visited:before {
+  content: ">";
+  color: #0a5770;
+}
+
+a:hover, a:visited:hover, .site-nav a:hover {
+  color: #09222A;
+  background-color: #FEA000;
+  text-decoration: none
+}
+
+a:before {
+  content: ">";
+  color: #0a5770;
+}
+
+a:hover:before {
+  content: ">";
+  font-weight: bold;
+  background-color: #09222A; 
+  color: #FEA000;
+}
+
+@media (prefers-color-scheme: light) {
+  body, .site-title, .site-title:visited, .site-nav .page-link {
+    color: #09222A;
+    background-color: #f5f8fa;
+  }
+  
+  a, .site-title, .site-title:visited, .site-nav .page-link:a, a.site-title {
+    color: #FEA000;
+    text-decoration: none;
+  }
+  
+  a:visited {
+    color: #FEA000
+  }
+  
+  a:hover, a:visited:hover, .site-nav a:hover {
+    color: #09222A;
+    background-color: #FEA000;
+    text-decoration: none
+  }
+  
+  a:before {
+    content: ">";
+    // color: #f5f8fa;
+    // color: #a0e1fb;
+    color: #c8e7fc;
+  }
+  
+  a:hover:before {
+    content: ">";
+    font-weight: bold;
+    background-color: #f5f8fa; 
+    color: #FEA000;
+  }
+  
+  .page-content a {
+    color: #FEA000;
+  }
+  
+  .page-content a:hover,  .page-content a:visited:hover {
+    color: #09222A;
+    background-color: #FEA000;
+  }
+  
+  .page-content a:before {
+    content: ">";
+    color: #c8e7fc;
+  }
+  
+  .page-content a:hover:before,  .page-content a:hover:visited:before{
+    content: ">";
+    color: #FEA000;
+  }
+  
+  .page-content a:visited {
+    color: #FEA000;
+  }
+  
+  .page-content a:visited:before {
+    content: ">";
+    color: #0a5770;
+  }
+  
+}
