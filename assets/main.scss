@@ -49,20 +49,22 @@ body {
 
 header.site-header:before {
   content: "╔␁══";
+  font-size: 1.5rem;
 }
 
 header.site-header:after {
-  content: "═␆═╝";
+  content: "══␆╣";
+  font-size: 1.2rem;
   text-align-last: right;
   display: block;
 }
 
 .page-content:before {
-  content: "╔␂══";
+  content: "╠␂══";
 }
 
 .page-content:after {
-  content: "══␃╝";
+  content: "══␃╣";
   text-align: right;
   display: block;
 }
@@ -76,8 +78,14 @@ div.page-content p {
   font-size: 1.2rem;
 }
 
+.site-footer:before {
+  font-size: 1.2rem;
+  content: "╠␐══";
+}
+
 .site-footer:after {
   content: "══␄╝";
+  font-size: 1.5rem;
   display: block;
   text-align: right;
 }
