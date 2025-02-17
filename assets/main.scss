@@ -49,11 +49,13 @@ body {
 
 header.site-header:before {
   content: "╔␁══";
+  font-family: "Times New Roman", "Apple Symbols", ui-monospace;
   font-size: 1.5rem;
 }
 
 header.site-header:after {
   content: "══␆╣";
+  font-family: "Times New Roman", "Apple Symbols", ui-monospace;
   font-size: 1.2rem;
   text-align-last: right;
   display: block;
@@ -61,10 +63,12 @@ header.site-header:after {
 
 .page-content:before {
   content: "╠␂══";
+  font-family: "Times New Roman", "Apple Symbols", ui-monospace;
 }
 
 .page-content:after {
   content: "══␃╣";
+  font-family: "Times New Roman", "Apple Symbols", ui-monospace;
   text-align: right;
   display: block;
 }
@@ -81,10 +85,12 @@ div.page-content p {
 .site-footer:before {
   font-size: 1.2rem;
   content: "╠␐══";
+  font-family: "Times New Roman", "Apple Symbols", ui-monospace;
 }
 
 .site-footer:after {
   content: "══␄╝";
+  font-family: "Times New Roman", "Apple Symbols", ui-monospace;
   font-size: 1.5rem;
   display: block;
   text-align: right;
