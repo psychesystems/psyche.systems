@@ -45,18 +45,16 @@ body, .site-title, .site-title:visited, .site-nav .page-link {
 }
 
 body {
-  min-width: 600px;
 }
 
 .page-content {
-  font-size: 1.4rem;
+  font-size: 1.2rem;
 }
 
 .page-branding {
   font-family: "Gorton Perfected", "Gorton", ui-sans-serif, sans-serif;
   font-weight: 400;
-  font-size: 800%;
-  width: 0;
+  font-size: 25vw;
   overflow: visible;
   line-height: 100%;
 }
