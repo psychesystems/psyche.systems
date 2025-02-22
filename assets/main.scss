@@ -49,6 +49,7 @@ body {
 
 header.site-header:before {
   content: "╔␁══";
+  color: $signal-color;
   font-family: "Times New Roman", "Apple Symbols", ui-monospace;
   font-size: 1.5rem;
 }
@@ -84,7 +85,7 @@ div.page-content p {
 
 .site-footer:before {
   font-size: 1.2rem;
-  content: "╠␐══";
+  content: "╠␅══";
   font-family: "Times New Roman", "Apple Symbols", ui-monospace;
 }
 
