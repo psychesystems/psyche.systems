@@ -1,7 +1,7 @@
 ---
 name: AMBER
 slogan: "Antidepressant Medications: Biology, Exposure & Response"
-url: https://www.kcl.ac.uk/research/amber-antidepressant-medications-biology-exposure-response
+resource: https://www.kcl.ac.uk/research/amber-antidepressant-medications-biology-exposure-response
 users: mark
 ---
 

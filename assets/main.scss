@@ -112,6 +112,21 @@ div.page-content p {
   font-style: italic;
 }
 
+ul.projectmember {
+  margin: 0;
+}
+
+li.projectmember {
+  display: inline;
+}
+
+li.projectmember::before {
+  content: "//";
+}
+li.projectmember::after {
+  content: "//";
+}
+
 a, .site-title, .site-title:visited, .site-nav .page-link:a, a.site-title {
   color: #FEA000;
   text-decoration: none;
