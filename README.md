@@ -10,7 +10,7 @@ The website is built with [jekyll](https://jekyllrb.com).
 
 ### User data
 
-Add your user information to the [users](_data/users.yml) data file ([YAML](https://yaml.org) format), following the format of the other entries. The entry starts with your self-assigned `username`. The `member:` field should be the name of your [members](/_members) page.
+Add your user information to as a [YAML](https://yaml.org) file in the [users](_data/users) data directory , following the format of the other entries. The file basename should be your self-assigned `username`. The `member:` field should be the name of your [members](/_members) page name.
 
 ### Members page
 
