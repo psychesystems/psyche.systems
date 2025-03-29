@@ -112,19 +112,23 @@ div.page-content p {
   font-style: italic;
 }
 
-ul.projectmember {
-  margin: 0;
+div.datalist h4 {
+  margin-bottom: 0;
 }
 
-li.projectmember {
+ul.datalist {
+  margin-left: 0;
+}
+
+.datalist li {
   display: inline;
 }
 
-li.projectmember::before {
-  content: "//";
+.datalist li::before {
+  content: "␥";
 }
-li.projectmember::after {
-  content: "//";
+.datalist li::after {
+  content: "␥";
 }
 
 a, .site-title, .site-title:visited, .site-nav .page-link:a, a.site-title {

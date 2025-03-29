@@ -10,7 +10,29 @@ The website is built with [jekyll](https://jekyllrb.com).
 
 ### User data
 
-Add your user information to the [users](_data/users.yml) data file ([YAML](https://yaml.org) format), following the format of the other entries. The entry starts with your self-assigned `username`. The `member:` field should be the name of your [members](/_members) page.
+Add your user information to as a [YAML](https://yaml.org) file in the [users](_data/users) data directory. The file basename should be your self-assigned `username`. The required keys are:
+
+```yaml
+name: Your Full Name
+label: Name
+```
+
+where `Name` is the part of your name you'd like to appear in member lists associated with collections.
+
+For example
+
+```yaml
+Name: Mark James Adams
+label: Adams
+```
+
+#### Links and social media
+
+Add links and social media links as a list under the key `links:`. Each entry should have a `title:` and `url:` key.
+
+For websites, format the `title` with the domain name and/or path. For example, if the `url:` is `https://domain.tld/path`, the title should be `domain.tld/path`, `domain.tld`, or `path`.
+
+For social media, format the `title:` with your handle as `"@handle"` (in quotes) and use your profile's URL for the `url:`.
 
 ### Members page
 
@@ -18,9 +40,8 @@ Make a page about yourself in [_members](/_members). The front matter should be:
 
 ```yaml
 ---
-name: Full Name
 user: username
-layout: default
+layout: member
 ---
 ```
 

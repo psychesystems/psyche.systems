@@ -1,0 +1,38 @@
+---
+layout: default
+---
+
+{% assign user = site.data.users[page.user] %}
+<h1>{{ user.name }}</h1>
+
+{{ content }}
+
+<div class = "datalist">
+{% if user.affiliations %}
+<h4>Affiliations</h4>
+<ul class="datalist">
+  {% for affiliation in user.affiliations %}
+  <li>{{ affiliation }}</li>
+  {% endfor %}
+</ul>
+{% endif %}
+
+{% if user.locations %}
+<h4>Locations</h4>
+<ul class="datalist">
+  {% for location in user.locations %}
+  <li>{{ location }}</li>
+  {% endfor %}
+</ul>
+{% endif %}
+
+{% if user.links %}
+<h4>Links</h4>
+<ul class="datalist">
+  {% for link in user.links %}
+  <li><a href="{{ link.url }}">{{ link.title }}</a></li>
+  {% endfor %}
+</ul>
+{% endif %}
+<br/>
+</div>
