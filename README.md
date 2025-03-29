@@ -26,7 +26,7 @@ layout: default
 
 ### Projects
 
-If you are involved with a specific [project](/_projects), add your `username` to the front matter `users:` field.
+If you are involved with a [project](/_projects) or [collaboration](/_collabs), add your `username` to the front matter `users:` field.
 
 ## Posting
 
