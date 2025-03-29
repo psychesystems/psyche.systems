@@ -23,11 +23,11 @@ Projects that our members are involved in.
   {% else %}
   <h3>{{ project.name }}</h3>
   {% endif %}
-  <p><i>{{ project.slogan }}</i></p>
   <ul class="projectmember">{% for user in project.users %}
     {% assign member = site.data.users[user] %}
     <li class="projectmember">{{ member.family }}</li>
   {% endfor %}</ul>
+  <p><i>{{ project.slogan }}</i></p>
   <p>{{ project.content | markdownify }}</p>
 {% endfor %}
 
@@ -41,10 +41,10 @@ Other endeavours we work with.
   {% else %}
   <h3>{{ collab.name }}</h3>
   {% endif %}
-  <p><i>{{ collab.slogan }}</i></p>
   <ul class="projectmember">{% for user in collab.users %}
     {% assign member = site.data.users[user] %}
     <li class="projectmember">{{ member.family }}</li>
   {% endfor %}</ul>
+  <p><i>{{ collab.slogan }}</i></p>
   <p>{{ collab.content | markdownify }}</p>
 {% endfor %}
