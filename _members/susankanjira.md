@@ -1,7 +1,6 @@
 ---
-name: Susan Kanjira
 user: susan
-layout: default
+layout: member
 ---
 
 Susan studies depression in diverse populations.
