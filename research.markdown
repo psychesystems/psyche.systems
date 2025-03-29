@@ -26,7 +26,7 @@ Projects that our members are involved in.
   <ul class="datalist">{% for user in project.users %}
     {% assign userdata = site.data.users[user] %}
     {% assign member = site.members | where: "user", user | first %}
-    <li><a href="{{ member.url }}">{{ userdata.family }}</a></li>
+    <li><a href="{{ member.url }}">{{ userdata.label }}</a></li>
   {% endfor %}</ul>
   <p><i>{{ project.slogan }}</i></p>
   <p>{{ project.content | markdownify }}</p>
@@ -45,7 +45,7 @@ Other endeavours we work with.
   <ul class="datalist">{% for user in collab.users %}
     {% assign userdata = site.data.users[user] %}
     {% assign member = site.members | where: "user", user | first %}
-    <li><a href="{{ member.url }}">{{ userdata.family }}</a></li>
+    <li><a href="{{ member.url }}">{{ userdata.label }}</a></li>
   {% endfor %}</ul>
   <p><i>{{ collab.slogan }}</i></p>
   <p>{{ collab.content | markdownify }}</p>
