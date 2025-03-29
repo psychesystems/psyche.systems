@@ -1,6 +1,6 @@
 ---
 name: Cardiometabolic and mental health
-slogan: Hearts and minds
+slogan: Hearts, minds, and what's inbetween
 users: mark
 ---
 

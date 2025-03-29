@@ -1,6 +1,6 @@
 ---
-name: Generation Scotland
-slogan:
+name: GenScot
+slogan: Generation Scotland
 resource: https://genscot.ed.ac.uk
 users: mark
 ---
