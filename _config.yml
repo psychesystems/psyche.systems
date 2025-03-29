@@ -20,6 +20,7 @@ collections:
     output: true
   themes:
   projects:
+  collabs:
   publications:
 
 # Build settings

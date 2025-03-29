@@ -30,3 +30,21 @@ Projects that our members are involved in.
   {% endfor %}</ul>
   <p>{{ project.content | markdownify }}</p>
 {% endfor %}
+
+<h2>Collaborations</h2>
+
+Other endeavours we work with.
+
+{% for collab in site.collabs %}
+  {% if collab.resource %}
+  <h3><a href="{{ collab.resource }}">{{ collab.name }}</a></h3>
+  {% else %}
+  <h3>{{ collab.name }}</h3>
+  {% endif %}
+  <p><i>{{ collab.slogan }}</i></p>
+  <ul class="projectmember">{% for user in collab.users %}
+    {% assign member = site.data.users[user] %}
+    <li class="projectmember">{{ member.family }}</li>
+  {% endfor %}</ul>
+  <p>{{ collab.content | markdownify }}</p>
+{% endfor %}
