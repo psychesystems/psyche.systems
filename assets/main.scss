@@ -121,6 +121,10 @@ ul.datalist {
 }
 
 .datalist li {
+  display: block;
+}
+
+.datalist li.concise {
   display: inline;
 }
 
