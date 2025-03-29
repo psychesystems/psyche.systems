@@ -4,7 +4,23 @@ Website for [␥the␥psyche␥lab](https://psyche.systems) group.
 
 ## Running and building the website
 
-The website is built with [jekyll](https://jekyllrb.com). 
+The website is built with [jekyll](https://jekyllrb.com). Install [ruby](https://www.ruby-lang.org), e.g. via [brew](https://brew.sh):
+
+```sh
+brew install chruby ruby-install
+ruby-install ruby 3.3.5
+chruby 3.3.5
+```
+
+Clone the repository, install required gems, and start the local server:
+```sh
+git clone git@github.com:psychesystems/psyche.systems.git
+cd psyche.systems
+gem install bundler jekyll
+bundle install
+bundle exec jekyll serve
+```
+
 
 ## New members
 
