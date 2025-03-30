@@ -15,7 +15,7 @@ Vectors around which our research is oriented.
 
 <h2>Projects</h2>
 
-Projects that our members are involved in.
+Projects our members lead on.
 
 {% for project in site.projects %}
   {% if project.resource %}

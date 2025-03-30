@@ -6,4 +6,4 @@ users:
   - mark
 ---
 
-Undertaking genetic, informatic and cellular work to give insights into the "active ingredients" of anti-depressants and infer how these drugs can better be used to treat depression.
+Undertaking genetic, informatic and cellular work to give insights into the "active ingredients" of anti-depressants and infer how these drugs can better be used to treat depression. Currently working on genetic studies of antidepressant exposure. 
