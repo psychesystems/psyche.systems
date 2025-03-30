@@ -33,7 +33,7 @@ name: Your Full Name
 label: Name
 ```
 
-where `Name` is the part of your name you'd like to appear in member lists associated with collections. 
+where `Name` is the part of your name you'd like to appear in member lists associated with collections.
 
 For example
 
@@ -41,8 +41,6 @@ For example
 Name: Mark James Adams
 label: Adams
 ```
-
-Then add your username to the [groups](_data/groups.yml) file to specify your role: `investigator` (PIs and senior researchers), `researcher` (postdocs, research associates, research assistants), `student`, or `visitor`.
 
 #### Links and social media
 
