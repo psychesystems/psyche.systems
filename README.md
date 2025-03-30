@@ -31,15 +31,17 @@ Add your user information to as a [YAML](https://yaml.org) file in the [users](_
 ```yaml
 name: Your Full Name
 label: Name
+role: rolename
 ```
 
-where `Name` is the part of your name you'd like to appear in member lists associated with collections.
+where `Name` is the part of your name you'd like to appear in member lists associated with collections. `role` is one of `investigator` (PIs and senior researchers), `researcher` (postdocs, research associates, research assistants), or `student`.
 
 For example
 
 ```yaml
 Name: Mark James Adams
 label: Adams
+role: investigator
 ```
 
 #### Links and social media
