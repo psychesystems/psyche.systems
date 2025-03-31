@@ -21,6 +21,9 @@ bundle install
 bundle exec jekyll serve
 ```
 
+## Editing the website
+
+The `main` branch of the repository is [protected](https://docs.github.com/en/repositories/configuring-branches-and-merges-in-your-repository/managing-protected-branches/about-protected-branches). To make an edit, create a new branch (manually for via an issue) and make a [pull request](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request). Pull requests [are reviewed](https://docs.github.com/en/repositories/configuring-branches-and-merges-in-your-repository/managing-protected-branches/about-protected-branches#require-pull-request-reviews-before-merging) by another member of the team before merging.
 
 ## New members
 
@@ -31,28 +34,30 @@ Add your user information to as a [YAML](https://yaml.org) file in the [users](_
 ```yaml
 name: Your Full Name
 label: Name
+position: Your Position
 ```
 
-where `Name` is the part of your name you'd like to appear in member lists associated with collections. 
+where `label: Name` is the part of your name you'd like to appear in member lists associated with collections. 
 
 For example
 
 ```yaml
-Name: Mark James Adams
+name: Mark James Adams
 label: Adams
+position: Senior Research Fellow
 ```
 
 Then add your username to the [groups](_data/groups.yml) file to specify your role (`staff` or  `student`).
 
 #### Links and social media
 
-Add links and social media links as a list under the key `links:`. Each entry should have a `title:` and `url:` key.
+Add web and social media links as a list under `links:`. Each entry should have a `title:` and `url:` key.
 
 For websites, format the `title` with the domain name and/or path. For example, if the `url:` is `https://domain.tld/path`, the title should be `domain.tld/path`, `domain.tld`, or `path`.
 
 For social media, format the `title:` with your handle as `"@handle"` (in quotes) and use your profile's URL for the `url:`.
 
-### Members page
+### Member's page
 
 Make a page about yourself in [_members](/_members). The front matter should be:
 
