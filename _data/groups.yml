@@ -1,8 +1,4 @@
-investigator:
+staff:
   - mark
-researcher:
-  - empty
-student:
+students:
   - susan
-visitor:
-  - empty

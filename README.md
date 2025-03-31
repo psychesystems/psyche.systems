@@ -42,7 +42,7 @@ Name: Mark James Adams
 label: Adams
 ```
 
-Then add your username to the [groups](_data/groups.yml) file to specify your role: `investigator` (PIs and senior researchers), `researcher` (postdocs, research associates, research assistants), `student`, or `visitor`.
+Then add your username to the [groups](_data/groups.yml) file to specify your role (`staff` or  `student`).
 
 #### Links and social media
 

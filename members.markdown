@@ -4,7 +4,7 @@ layout: page
 ---
 
 
-{% assign usernames_array = site.data.groups["investigator"] | concat: site.data.groups["researcher"] | concat: site.data.groups["student"] %}
+{% assign usernames_array = site.data.groups["staff"] | concat: site.data.groups["students"] %}
 
 {% for username in usernames_array %}
   {% assign user = site.data.users[username] %}
