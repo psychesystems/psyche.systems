@@ -108,6 +108,10 @@ div.page-content p {
   display: inline;
 }
 
+.membername span:before {
+  content: ">";
+}
+
 .memberrole {
   font-style: italic;
 }
