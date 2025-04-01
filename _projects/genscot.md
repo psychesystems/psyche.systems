@@ -3,7 +3,7 @@ name: GenScot
 slogan: Generation Scotland
 resource: https://genscot.ed.ac.uk
 users: 
-  - marka
+  - markjamesadams
 ---
 
 Bioinformatics, genetic studies, multi-omics.
