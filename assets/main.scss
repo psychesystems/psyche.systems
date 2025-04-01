@@ -139,6 +139,10 @@ ul.datalist {
   content: "␥";
 }
 
+.datalist li span::before {
+  content: ">"
+}
+
 a, .site-title, .site-title:visited, .site-nav .page-link:a, a.site-title {
   color: #FEA000;
   text-decoration: none;

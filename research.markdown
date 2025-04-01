@@ -26,7 +26,13 @@ Projects our members lead on.
   <ul class="datalist">{% for user in project.users %}
     {% assign userdata = site.data.users[user] %}
     {% assign member = site.members | where: "user", user | first %}
-    <li class = "concise"><a href="{{ member.url }}">{{ userdata.label }}</a></li>
+    <li class = "concise">
+    {% if member %}
+      <a href="{{ member.url }}">{{ userdata.label }}</a>
+    {% else %}
+      <span>{{ userdata.label }}</span>
+    {% endif %}
+    </li>
   {% endfor %}</ul>
   <p><i>{{ project.slogan }}</i></p>
   <p>{{ project.content | markdownify }}</p>
@@ -45,7 +51,13 @@ Other endeavours we work with.
   <ul class="datalist">{% for user in collab.users %}
     {% assign userdata = site.data.users[user] %}
     {% assign member = site.members | where: "user", user | first %}
-    <li class = "concise"><a href="{{ member.url }}">{{ userdata.label }}</a></li>
+    <li class = "concise">
+    {% if member %}
+      <a href="{{ member.url }}">{{ userdata.label }}</a>
+    {% else %}
+      <span>{{ userdata.label }}</span>
+    {% endif %}
+    </li>
   {% endfor %}</ul>
   <p><i>{{ collab.slogan }}</i></p>
   <p>{{ collab.content | markdownify }}</p>
