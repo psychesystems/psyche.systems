@@ -23,13 +23,13 @@ bundle exec jekyll serve
 
 ## Editing the website
 
-The `main` branch of the repository is [protected](https://docs.github.com/en/repositories/configuring-branches-and-merges-in-your-repository/managing-protected-branches/about-protected-branches). To make an edit, create a new branch (manually for via an issue) and make a [pull request](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request). Pull requests [are reviewed](https://docs.github.com/en/repositories/configuring-branches-and-merges-in-your-repository/managing-protected-branches/about-protected-branches#require-pull-request-reviews-before-merging) by another member of the team before merging.
+The `main` branch of the repository is [protected](https://docs.github.com/en/repositories/configuring-branches-and-merges-in-your-repository/managing-protected-branches/about-protected-branches). To make an edit, create a new branch (manually or via an issue) and make a [pull request](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request). Pull requests [are reviewed](https://docs.github.com/en/repositories/configuring-branches-and-merges-in-your-repository/managing-protected-branches/about-protected-branches#require-pull-request-reviews-before-merging) by another member of the team before merging.
 
 ## New members
 
 ### User data
 
-Add your user information to as a [YAML](https://yaml.org) file in the [users](_data/users) data directory. The file basename should be your self-assigned `username`. The required keys are:
+Add your user information as a [YAML](https://yaml.org) file in the [users](_data/users) data directory. The file basename should be your self-assigned `username`. The required keys are:
 
 ```yaml
 name: Your Full Name
