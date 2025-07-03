@@ -2,9 +2,11 @@ name: Ella Davyson
 label: Davyson
 position: Doctoral student
 affiliations:
-- The University of Edinburgh
+  - Genomics England
+  - The University of Edinburgh
 locations:
-- Edinburgh
+  - Sheffield
+  - Edinburgh
 links:
   - title: github.com/Elladavyson
     url: https://github.com/Elladavyson
